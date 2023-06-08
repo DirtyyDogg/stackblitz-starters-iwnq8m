@@ -1,0 +1,7 @@
+{
+  "installDependencies": true,
+  "startCommand": "startCommand1 && startCommand2 && startCommandLast",
+  "startCommand1": "npm i",
+  "startCommand2": "npx create-strapi-app@latest my-project",
+  "startCommandLast": "npx nodemon server.js"
+}
