@@ -1,6 +1,6 @@
 {
   "installDependencies": true,
-  "startCommand": "startCommand1 && meow && startCommandLast",
+  "startCommand": "yarn startCommand1 && yarn meow && yarn startCommandLast",
 
   "startCommand2": "npx create-strapi-app@latest my-project",
   "startCommandLast": "npx nodemon server.js"
