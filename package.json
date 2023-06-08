@@ -1,14 +1,15 @@
 {
-    "name": "node-app",
-    "version": "0.0.0",
-    "scripts": {
-        "meow": "npx create-strapi-app@latest my-project"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "express-graphql": "^0.12.0",
-        "graphql": "^15.5.0",
-        "nodemon": "^2.0.7",
-        "@strapi": "^7.0.0"
-    }
+  "name": "node-app",
+  "version": "0.0.0",
+  "scripts": {
+    "meow": "cd my-project && yarn develop",
+    "startCommand1": "npx create-strapi-app@latest my-project",
+    "startCommandLast": "npx nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "nodemon": "^2.0.7"
+  }
 }
